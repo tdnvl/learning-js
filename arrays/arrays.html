@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Arrays</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h2>Array notation</h2>
+        <p>I like that we can use both the brackets or Array object notation:</p>
+        <pre>
+            var myArray = [1, 2, 3];
+            var theSameArray = new Array(1, 2, 3);
+        </pre>
+        <h2>Addressing</h2>
+        <p>Arrays in JavaScript are sparse, meaning that we can also assign variables to random locations even though previous cells were undefined. For example:</p>
+        <pre>
+            var myArray = []
+            myArray[3] = "hello"
+            console.log(myArray);
+        </pre>
+        <p>Will print out:</p>
+        <pre>
+            ,,,hello
+        </pre>
+        
+        <script src="arrays.js" async defer></script>
+    </body>
+</html>
