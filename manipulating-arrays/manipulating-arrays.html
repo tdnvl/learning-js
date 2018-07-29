@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Manipulating arrays</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h1>Manipulating arrays</h1>
+        <h2>Pushing and popping</h2>
+        <p>Arrays can also function as a stack. The <code>push</code> and <code>pop</code> methods insert and remove variables from the <em>end</em> of an array.</p>
+        <h2>Queues using shifting and unshifting</h2>
+        <p>The <code>shift</code> and <code>unshift</code> methods are similar to <code>pop</code> and <code>push</code>>, only they work from the <em>beginning</em> of the array.</p>
+        <h2>Splicing</h2>
+        <p>Splicing arrays in JavaScript removes a certain part from an array to create a new array, made up from the part we took out.</p>
+        <p>The syntax reads:</p>
+        <code>myArray.splice(3,5);</code>
+        <p>The first parameters shows the # of items in the array that we keep (inclusive); here, the first three.<br>
+            The second parameter shows the # of items that are being removed (inclusive); here, the next 5.</p>
+        <script src="manipulating-arrays.js" async defer></script>
+    </body>
+</html>
